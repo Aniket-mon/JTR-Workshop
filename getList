@@ -1,0 +1,13 @@
+#!/bin/bash
+
+FILE_ID="12ppQ6A6Z9YmBO_uf5PZTQtxFa63sft46"
+OUTPUT_FILE="rockyou.txt"
+COOKIE_FILE="/tmp/cookies.txt"
+
+wget --load-cookies "$COOKIE_FILE" "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies "$COOKIE_FILE" --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=${FILE_ID}" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=${FILE_ID}" -O "$OUTPUT_FILE" && rm -f "$COOKIE_FILE"
+
+if [ $? -eq 0 ]; then
+    echo "Download completed successfully: $OUTPUT_FILE"
+else
+    echo "Download failed."
+fi
