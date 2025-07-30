@@ -1,5 +1,5 @@
 {
   "name": "JTR Challenge Environment",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y john && chmod +x ./getlist "
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y john && chmod +x ./getlist && wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py "
 }
