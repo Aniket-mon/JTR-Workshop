@@ -1,2 +1,2 @@
 # Track a specific file
-
+rockyou.txt filter=lfs diff=lfs merge=lfs -text
