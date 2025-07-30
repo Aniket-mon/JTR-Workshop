@@ -1,5 +1,5 @@
 {
   "name": "JTR Challenge Environment",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "chmod +x setup.sh && ./setup.sh"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git build-essential libssl-dev pkg-config python3 wget libbz2-dev && sudo git clone https://github.com/openwall/john -b bleeding-jumbo /opt/john && cd /opt/john/src && sudo ./configure && sudo make -s clean && sudo make -sj4 && for tool in $(ls /opt/john/run); do sudo ln -s /opt/john/run/$tool /usr/local/bin/$tool; done"
 }
