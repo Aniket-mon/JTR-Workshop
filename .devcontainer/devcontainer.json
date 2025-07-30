@@ -1,5 +1,5 @@
 {
   "name": "JTR Jumbo Environment (Kali)",
   "image": "kalilinux/kali-rolling",
-  "postCreateCommand": "bash .devcontainer/setup_jtr_jumbo.sh"
+  "postCreateCommand": "bash .devcontainer/setup.sh"
 }
