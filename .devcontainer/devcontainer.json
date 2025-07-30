@@ -1,5 +1,5 @@
 {
-  "name": "JTR Challenge Environment (Kali)",
+  "name": "JTR Jumbo Environment (Kali)",
   "image": "kalilinux/kali-rolling",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y kali-linux-headless"
+  "postCreateCommand": "bash .devcontainer/setup_jtr_jumbo.sh"
 }
