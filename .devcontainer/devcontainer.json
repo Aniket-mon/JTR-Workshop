@@ -2,11 +2,6 @@
   "name": "JTR Challenge Environment (Ubuntu)",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
-  // This command will run when the Codespace is created. It does the following:
-  // 1. Installs all necessary tools to build software (git, build-essential, etc.) and Python/Pip.
-  // 2. Downloads the full "Jumbo" source code for John the Ripper.
-  // 3. Compiles the source code.
-  // 4. Creates symbolic links (shortcuts) for 'john' and 'rar2john' in a system-wide directory,
-  //    so they can be run from anywhere without typing the full path.
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git build-essential libssl-dev pkg-config python3 python3-pip libbz2-dev && sudo git clone https://github.com/openwall/john -b bleeding-jumbo /opt/john && cd /opt/john/src && sudo ./configure && sudo make -s clean && sudo make -sj4 && sudo ln -s /opt/john/run/john /usr/local/bin/john && sudo ln -s /opt/john/run/rar2john /usr/local/bin/rar2john"
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git build-essential libssl-dev pkg-config python3 python3-pip libbz2-dev && sudo git clone https://github.com/openwall/john -b bleeding-jumbo /opt/john && cd /opt/john/src && sudo ./configure && sudo make -s clean && sudo make -sj4 && sudo chown -R $(whoami) /opt/john && echo 'export PATH=/opt/john/run:$PATH' | sudo tee /etc/profile.d/jtr.sh"
 }
