@@ -3,5 +3,5 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git build-essential libssl-dev pkg-config python3 python3-pip libbz2-dev && sudo git clone https://github.com/openwall/john -b bleeding-jumbo /opt/john && cd /opt/john/src && sudo ./configure && sudo make -s clean && sudo make -sj4 && sudo chown -R $(whoami) /opt/john && echo 'export PATH=/opt/john/run:$PATH' | sudo tee /etc/profile.d/jtr.sh"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git build-essential libssl-dev pkg-config python3 python3-pip libbz2-dev && sudo git clone https://github.com/openwall/john -b bleeding-jumbo /opt/john && cd /opt/john/src && sudo ./configure && sudo make -s clean && sudo make -sj4 && sudo chown -R vscode:vscode /opt/john && echo 'export PATH=/opt/john/run:$PATH' >> /home/vscode/.bashrc"
 }
