@@ -32,5 +32,9 @@ cd jumbo-john/src
 echo "[*] Building John the Ripper Jumbo..."
 ./configure && make -s clean && make -sj$(nproc)
 
-echo "[*] Adding John to PATH..."
+echo "[*] Setting up environment..."
 ln -sf /opt/jumbo-john/run/john /usr/local/bin/john
+ln -sf /opt/jumbo-john/run /usr/share/john
+
+echo 'export JOHN_HOME="/opt/jumbo-john/run"' >> ~/.bashrc
+echo 'export PATH="$JOHN_HOME:$PATH"' >> ~/.bashrc
