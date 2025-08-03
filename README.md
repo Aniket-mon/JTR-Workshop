@@ -21,6 +21,7 @@ Your mission, should you choose to accept it, is to navigate through a series of
 
 Once you have collected all the flags, submit them through the official form to log your score.
 
-➡️ [**Submit Your Flags Here**](https://forms.gle/2XtKKFosyhhM9LFc9)
+➡️ [**Submit Your Flags Here**](https://forms.gle/JDarKjftaBj3LAEK9)
+
 
 Good luck, and may your cracking be swift!
