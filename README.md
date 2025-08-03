@@ -1,7 +1,7 @@
 
 # JTR-Workshop: Operation Hash Breaker
 
-Welcome, Analyst! This is the official repository for the **"John The Ripper: Hands-On Workshop"** hosted by the **Cloud and Cybersecurity Club**.
+Welcome, Analyst! This is the official repository for the **"John The Ripper: Hands-On Workshop"** hosted by the **Cloud and Cybersecurity Club**, Amity University Noida.
 
 Your mission, should you choose to accept it, is to navigate through a series of challenges designed to test your password-cracking skills. You will use the legendary John the Ripper tool to uncover hidden flags.
 
@@ -17,9 +17,14 @@ Your mission, should you choose to accept it, is to navigate through a series of
 * The flag is the password you successfully crack.
 * You have **only one chance** to submit your answers via the Google Form, so double-check your findings before submission.
 
+## 📈 Scoring
+* Your final score isn't just about accuracy—it's also about speed. The time you take to submit the form will be used to calculate your final score. A faster submission leads to a higher score.
+
+* Your score will be calculated using a formula that rewards both the number of correct flags and the time you took to submit them. Aim for both precision and speed to climb to the top of the leaderboard!
+
 ## 🏁 Flag Submission Form
 
-Once you have collected all the flags, submit them through the official form to log your score.
+Once you have collected all the flags, submit them through the official form to log your score. Remember, the clock is ticking!
 
 ➡️ [**Submit Your Flags Here**](https://forms.gle/JDarKjftaBj3LAEK9)
 
