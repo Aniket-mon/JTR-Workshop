@@ -23,7 +23,7 @@ Your mission, should you choose to accept it, is to navigate through a series of
 * Your score will be calculated using a formula that rewards both the number of correct flags and the time you took to submit them. Aim for both precision and speed to climb to the top of the leaderboard!
 
 ## Instructions 
-Use these commands (one by one) on your machine to set up the required tools :-
+Use these commands on your machine to set up the required tools :-
 
 1. For codespace users
 ``` 
