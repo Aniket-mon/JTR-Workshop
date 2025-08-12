@@ -8,13 +8,13 @@ Your mission, should you choose to accept it, is to navigate through a series of
 ## 🚀 How to Begin
 
 1.  Navigate to the first level's folder to receive your initial briefing.
-2.  Each level has its own `README.md` file that contains the details of the challenge.
+2.  Each level has its own `markdown` file that contains the details of the challenge.
 3.  Analyze the hashes, choose your wordlists, and apply your techniques to crack the passwords and find the flags.
 
 ## 📜 Rules of Engagement
 
-* Read the `README.md` in each level's directory carefully.
-* The flag is the password you successfully crack.
+* Read the `.md` in each level's directory carefully.
+* The flag is the password you successfully crack unless told otherwise.
 * You have **only one chance** to submit your answers via the Google Form, so double-check your findings before submission.
 
 ## 📈 Scoring
@@ -32,9 +32,10 @@ apt-get update && apt-get dist-upgrade -y
 apt-get install -y john python3 python3-pip unrar netcat-openbsd
  ```
  2. For non-codespace users
-``` 
+```
+git clone https://github.com/Aniket-mon/JTR-Workshop.git
+cd JTR-Workshop
 sudo apt-get update  && sudo apt-get dist-upgrade -y
-
 sudo apt-get install -y john python3 python3-pip unrar netcat-openbsd
  ```
 
