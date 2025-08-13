@@ -5,19 +5,19 @@ Welcome, Analyst! This is the official repository for the **"John The Ripper: Ha
 
 Your mission, should you choose to accept it, is to navigate through a series of challenges designed to test your password-cracking skills. You will use the legendary John the Ripper tool to uncover hidden flags.
 
-## 🚀 How to Begin
+##  How to Begin
 
 1.  Navigate to the first level's folder to receive your initial briefing.
 2.  Each level has its own `markdown` file that contains the details of the challenge.
 3.  Analyze the hashes, choose your wordlists, and apply your techniques to crack the passwords and find the flags.
 
-## 📜 Rules of Engagement
+##  Rules of Engagement
 
 * Read the `.md` in each level's directory carefully.
 * The flag is the password you successfully crack unless told otherwise.
 * You have **only one chance** to submit your answers via the Google Form, so double-check your findings before submission.
 
-## 📈 Scoring
+##  Scoring
 * Your final score isn't just about accuracy—it's also about speed. The time you take to submit the form will be used to calculate your final score. A faster submission leads to a higher score.
 
 * Your score will be calculated using a formula that rewards both the number of correct flags and the time you took to submit them. Aim for both precision and speed to climb to the top of the leaderboard!
@@ -44,7 +44,7 @@ sudo apt-get install -y john python3 python3-pip unrar netcat-openbsd curl
 curl -L "https://drive.google.com/uc?export=download&id=1L_HO6jcysbGFaJP-QwV5Ao2lkymq4ssY" -o rockyou.txt
  ```
 
-## 🏁 Flag Submission Form
+##  Flag Submission Form
 
 Once you have collected all the flags, submit them through the official form to log your score. Remember, the clock is ticking!
 
