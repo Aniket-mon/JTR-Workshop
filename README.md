@@ -1,7 +1,7 @@
 
 # JTR-Workshop: Challenge
 
-Welcome, Analyst! This is the official repository for the **"John The Ripper: Hands-On Workshop"** hosted by the **Cloud and Cybersecurity Club**, Amity University Noida.
+Welcome, Analyst! This is the official repository for the **"John The Ripper: Hands-On Workshop"** hosted by the **Cloud and Cybersecurity Club**, Amity University Noida. Welcome to the **Challenge** segment.
 
 Your mission, should you choose to accept it, is to navigate through a series of challenges designed to test your password-cracking skills. You will use the legendary John the Ripper tool to uncover hidden flags.
 
