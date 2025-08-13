@@ -29,7 +29,7 @@ Use these commands on your machine to set up the required tools :-
 ``` 
 apt-get update && apt-get dist-upgrade -y
 
-apt-get install -y john python3 python3-pip unrar netcat-openbsd
+apt-get install -y john python3 python3-pip unrar netcat-openbsd curl
 
 curl -L "https://drive.google.com/uc?export=download&id=1Fb0lPVFiRuwfXBHAaYKrP1hRFRiXfNMt" -o rockyou.txt
 
@@ -39,7 +39,7 @@ curl -L "https://drive.google.com/uc?export=download&id=1Fb0lPVFiRuwfXBHAaYKrP1h
 git clone https://github.com/Aniket-mon/JTR-Workshop.git
 cd JTR-Workshop
 sudo apt-get update  && sudo apt-get dist-upgrade -y
-sudo apt-get install -y john python3 python3-pip unrar netcat-openbsd
+sudo apt-get install -y john python3 python3-pip unrar netcat-openbsd curl
 curl -L "https://drive.google.com/uc?export=download&id=1Fb0lPVFiRuwfXBHAaYKrP1hRFRiXfNMt" -o rockyou.txt
  ```
 
